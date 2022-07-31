@@ -34,7 +34,7 @@
     "new-component": "babel-node build/new-component.js",
     "github-release": "github-release",
     "commit": "git-cz",
-    "postinstall": "opencollective-postinstall"
+    "postinstall": "opencollective-postinstall || exit 0"
   },
   "engines": {
     "node": ">= 7.0"
